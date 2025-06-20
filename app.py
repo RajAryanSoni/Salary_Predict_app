@@ -31,4 +31,4 @@ if st.button("Predict Salary"):
     predicted_salary = model.predict(input_scaled)
     
     # Display the result
-    st.success(f"The predicted salary is: Rs. predicted_salary[0][0]:,.2f")
+    st.success(f"The predicted salary is: Rs. {predicted_salary[0][0]:,.2f}")
